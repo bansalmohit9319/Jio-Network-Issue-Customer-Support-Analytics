@@ -27,20 +27,18 @@ The main objectives of this project are:
 - **Google Colab** – For writing and executing Python code.
 - **CSV and Excel** – For storing and exporting the final reports.
 
-##  Project Workflow
+##  Key Features
 
-I divided the project into 10 milestones to make the analysis easier to manage.
-
-1. Loaded the customer complaint data.
-2. Loaded network, recharge, and service request records.
-3. Cleaned complaint data and standardized important fields.
-4. Cleaned operational datasets and standardized dates.
-5. Analyzed network reports by site.
-6. Summarized recharge-related information for each complaint.
-7. Analyzed service requests, escalations, and repeat customers.
-8. Combined the analyzed data into a master complaint table.
-9. Identified operational risk signals and assigned complaint priorities.
-10. Generated the final reports, summaries, and export files.
+- Data cleaning and standardization.
+- Network issue analysis by site.
+- Recharge risk identification.
+- Service request and escalation analysis.
+- Repeat customer identification.
+- Complaint-level master dataset.
+- Rule-based risk scoring and prioritization.
+- Priority-wise and circle-wise summaries.
+- Search and filtering of complaint records.
+- CSV and Excel report exports.
 
 ##  Complaint Priority Classification
 
@@ -56,21 +54,17 @@ The priority score is calculated using network issues, recharge risks, service f
 
 These priority levels help organize cases so that potentially serious issues can be reviewed first.
 
-##  Key Features
+##  Project Workflow
 
-- Data cleaning and standardization.
-- Network issue analysis by site.
-- Recharge risk identification.
-- Service request and escalation analysis.
-- Repeat customer identification.
-- Complaint-level master dataset.
-- Rule-based risk scoring and prioritization.
-- Priority-wise and circle-wise summaries.
-- Search and filtering of complaint records.
-- CSV and Excel report exports.
+I divided the project into 10 milestones to make the analysis easier to manage.
 
-##  Project Status
-
-**Completed:** All 10 project milestones have passed the automated self-assessment checks.
-
-The automated assessment is not the same as a final human evaluation.
+1. Loaded the customer complaint data.
+2. Loaded network, recharge, and service request records.
+3. Cleaned complaint data and standardized important fields.
+4. Cleaned operational datasets and standardized dates.
+5. Analyzed network reports by site.
+6. Summarized recharge-related information for each complaint.
+7. Analyzed service requests, escalations, and repeat customers.
+8. Combined the analyzed data into a master complaint table.
+9. Identified operational risk signals and assigned complaint priorities.
+10. Generated the final reports, summaries, and export files.
